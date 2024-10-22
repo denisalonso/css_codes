@@ -18,7 +18,6 @@ a {
 }
 
 
-
 h1 {
     font-family: "Montserrat", sans-serif;
     text-align: center;
@@ -131,6 +130,8 @@ footer {
     margin: auto;
     display: block;
     margin-bottom: 1.5rem;
+    border-radius: 1rem;
+    border: var(--border);
 }
 
 #logo {
@@ -154,5 +155,10 @@ footer {
 }
 
 #text-center {
-    text-align: center;
+    text-align: justify;
+}
+
+#paragraph {
+    font-size: 1.5rem;
+    text-align: justify;
 }
