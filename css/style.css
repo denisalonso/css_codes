@@ -228,7 +228,6 @@ footer {
     width: max-content;
     align-items: center;
     padding: 2%;
-
 }
 
 .barra-msg {
@@ -368,4 +367,52 @@ footer {
     padding: .5;
     border-radius: 1rem;
     margin-bottom: 2rem;
+}
+
+.busca-recente {
+    font-size: 1.4rem;
+    display: flex;
+    padding-left: 1rem;
+    align-items: center;
+}
+
+.recent-item {
+    margin-bottom: 1rem;
+}
+
+.search2 {
+    display: flex;
+    align-items: center;
+    padding: 0.8rem;
+    padding-left: 3rem;
+    border-radius: 1rem;
+    background: #f6f6f6;
+    margin: 2%;
+    margin-bottom: 0;
+    border: 0.03rem black solid;
+}
+
+#search {
+    display: flex;
+    font-size: 1rem;
+    font-family: "EB Garamond", serif;
+    color: #333333;
+    padding-left: .3rem;
+    align-items: center;
+}
+
+#menu-suspenso {
+    position: fixed;
+    left: 1.9rem;
+    top: 7rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #f6f6f6;
+}
+
+.cat {
+    font-size: 1.5rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    border: .05rem black solid;
 }
