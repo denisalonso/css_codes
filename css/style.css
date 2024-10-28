@@ -21,7 +21,6 @@ a {
     color:Black;
 }
 
-
 h1 {
     font-family: "Montserrat", sans-serif;
     text-align: center;
@@ -125,7 +124,7 @@ footer {
     border: none;
 }
 
-#banner {
+.banner {
     width: 100%;
     display: block;
     margin-bottom: 1.5rem;
@@ -140,7 +139,7 @@ footer {
     margin-bottom: 0.5rem;
 }
 
-#icon-est-img {
+.icon-est-img {
     width: 50%;
 }
 
@@ -152,11 +151,11 @@ footer {
     justify-content: center;
 }
 
-#text-center {
+.text-center {
     text-align: center;
 }
 
-#paragraph {
+.paragraph {
     font-size: 1.5rem;
     text-align: justify;
 }
@@ -238,40 +237,135 @@ footer {
     justify-content: space-between;
 }
 
-#enviada {
+.msg-balloon-rec {
     width: max-content;
-    display: flex;
-    justify-content: right;
+    display: flex;    
+    flex-direction: column;
     padding: 2rem;
+    padding-bottom: 1rem;
     border-radius: 1rem;
     background: #b1afaf9a;
-    margin: 2%;
+    margin: 1.5%;
 }
 
-#recebida {
+.msg-balloon-env {
     width: max-content;
     display: flex;
-    justify-content: left;
+    flex-direction: column;
     padding: 2rem;
+    padding-bottom: 1rem;
     border-radius: 1rem;
     background: #b1afaf9a;
-    margin: 2%;
-    /* margin-left: auto; */
+    margin: 1.5%;
 }
 
-.inv{
+.env{
     width: 100%;
     display: flex;
     flex-direction: row-reverse;
 }
 
-#chat {
+.hora {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: row-reverse;
+    position: relative;
+    left: 1.2rem;
+    top: .5rem;
+    font-size: .85rem;
 }
 
-#hora {
-    position: relative;
-    left: 1.35rem;
-    top: 1.5rem;
+#duvidas {
+    font-size: 1.25rem;
+}
+
+#salas-bate-papo {
+    display: flex;
+    flex-direction: column;
+}
+
+.grupo {
+    --margin: .75rem;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: var(--margin);
+    margin-top: var(--margin);
+}
+
+.nome-grupo {
+    display: flex;
+    font-size: 1.4rem;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+#blob-perfil {
+    display: flex;
+    flex-direction: row;
+    background-color: #b1afaf9a;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+#blob-profile-pic {
+    display: flex;
+    border-radius: 100%;
+    background-color: #00b8e6;
+    align-items: center;
+    justify-content: center;
+}
+
+#profile-pic {
+    width: 8rem;
+}
+
+#profile-data {
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+}
+
+#profile-info {
+    font-size: 1.15rem;
+    text-align: justify;
+}
+
+#username {
+    font-size: 2rem;
+    padding-bottom: .5rem;
+}
+
+#config {
+    height: 100;
+    position: fixed;
+    right: 1.5rem;
+}
+
+.fav {
+    width: 7rem;
+}
+
+.fav-bar {
+    display: flex;
+    flex-direction: row;
+    background-color: #b1afaf9a;
+    justify-content: center;
+    padding: .15rem;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+}
+
+.fav-menu {
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.content-blob {
+    display: flex;
+    flex-direction: row;
+    background-color: #b1afaf9a;
+    padding: .5;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
 }
