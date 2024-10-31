@@ -84,8 +84,8 @@ footer {
 }
 
 .icon {
-    height: 80px;
-    width:80px;
+    height: 5rem;
+    width: 5rem;
 }
 
 .column {
@@ -112,16 +112,6 @@ footer {
     padding: 1rem;
     font-size: 1.5rem;
     text-align: left;
-}
-
-.blob {
-    width: max-content;
-    display: flex;
-    padding: 14px;
-    border-radius: 20px;
-    background:#c0c0c0;
-    outline: none;
-    border: none;
 }
 
 .banner {
@@ -364,7 +354,7 @@ footer {
     display: flex;
     flex-direction: row;
     background-color: #b1afaf9a;
-    padding: .5;
+    padding: .5rem;
     border-radius: 1rem;
     margin-bottom: 2rem;
 }
@@ -415,4 +405,61 @@ footer {
     padding-right: 3rem;
     padding-left: 3rem;
     border: .05rem black solid;
+}
+
+.blob-est {
+    background-color: #f6f6f6;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.pic-est {
+    height: 6rem;
+    width: 6rem;
+    border-radius: 2rem;
+}
+
+.loc-icon {
+    height: 2rem;
+    width: 2rem;
+}
+
+.rating {
+    width: 6rem;
+    position: relative;
+    bottom: .95rem;
+}
+
+.nome-est {
+    font-size: 1.6rem;
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+}
+
+.loc {
+    display: flex;
+    flex-direction: row;
+    padding-top: .4rem;
+}
+
+.icon1 {
+    width: 3rem;
+}
+
+.bairro {
+    display: flex;
+    align-items: center;
+}
+
+.link-chat {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
