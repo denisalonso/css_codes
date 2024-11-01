@@ -1,8 +1,0 @@
-comentários profs css
-
-index:
--diminuir "Olá ______" (hierarquia de informação);
--tamanhos dos ícones no footer;
--constância traços nos ícones de restaurantes;
--quem sabe aumentar o "Super Promoção";
-
