@@ -66,7 +66,7 @@ footer {
     padding: 0.8rem;
     padding-left: 6rem;
     border-radius: 1rem;
-    background: #f6f6f6;
+    background: white;
     margin: 2%;
     margin-bottom: 0;
     border: 0.03rem black solid;
@@ -77,15 +77,15 @@ footer {
 .search-input {
     font-size: 1rem;
     font-family: "EB Garamond", serif;
-    color: #333333;
+    color: black;
     outline: none;
     border: none;
     background: transparent;
 }
 
 .icon {
-    height: 5rem;
-    width: 5rem;
+    height: 6rem;
+    width: 6rem;
 }
 
 .column {
@@ -133,12 +133,13 @@ footer {
     width: 50%;
 }
 
-#icon-est {
-    --border: 0.15rem black solid;
+.icon-est {
+    --border: 0.15rem #cc5200 solid;
     border: var(--border);
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #ff944d;
 }
 
 .text-center {
@@ -161,19 +162,22 @@ footer {
 #voltar {
     margin-left: 1rem;
     margin-right: 1.5rem;
+    width: 2rem;
+    padding-bottom: .28rem;
+
 }
 
-#teclado {
+/* #teclado {
     position: fixed;
     width: 100%;
     left: 0;
     bottom: 0;
-}
+} */
 
-#mensagens {
+/* #mensagens {
     position: fixed;
     width: 100%;
-}
+} */
 
 #chat_geral {
     --border: 0.15rem black solid;
@@ -199,7 +203,7 @@ footer {
     padding-left: 3rem;
     padding-right: 4rem;
     border-radius: 1rem;
-    background: #f6f6f6;
+    background: white;
     margin: 2%;
     border: 0.03rem black solid;
 }
@@ -207,7 +211,7 @@ footer {
 .mensagem-input {
     font-size: 1rem;
     font-family: "EB Garamond", serif;
-    color: #333333;
+    color: black;
     outline: none;
     border: none;
     background: transparent;
@@ -233,8 +237,9 @@ footer {
     padding: 2rem;
     padding-bottom: 1rem;
     border-radius: 1rem;
-    background: #b1afaf9a;
+    background: #007a99;
     margin: 1.5%;
+    font-size: 1rem;
 }
 
 .msg-balloon-env {
@@ -244,8 +249,9 @@ footer {
     padding: 2rem;
     padding-bottom: 1rem;
     border-radius: 1rem;
-    background: #b1afaf9a;
+    background: #00b8e6;
     margin: 1.5%;
+    font-size: 1rem;
 }
 
 .env{
@@ -261,6 +267,16 @@ footer {
     left: 1.2rem;
     top: .5rem;
     font-size: .85rem;
+}
+
+.nome {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: .5rem;
+    right: 1rem;
+    font-size: .85rem;
+    font-family: "Montserrat", sans-serif;
 }
 
 #duvidas {
@@ -290,21 +306,16 @@ footer {
 #blob-perfil {
     display: flex;
     flex-direction: row;
-    background-color: #b1afaf9a;
+    background-color: #ff944d;
     padding: 1rem;
     border-radius: 1rem;
 }
 
-#blob-profile-pic {
-    display: flex;
-    border-radius: 100%;
-    background-color: #00b8e6;
-    align-items: center;
-    justify-content: center;
-}
 
 #profile-pic {
-    width: 8rem;
+    width: 6rem;
+    border-radius: 100%;
+
 }
 
 #profile-data {
@@ -324,7 +335,7 @@ footer {
 }
 
 #config {
-    height: 100;
+    height: 2.5rem;
     position: fixed;
     right: 1.5rem;
 }
@@ -336,7 +347,7 @@ footer {
 .fav-bar {
     display: flex;
     flex-direction: row;
-    background-color: #b1afaf9a;
+    background-color: #ff944d;
     justify-content: center;
     padding: .15rem;
     padding-top: .25rem;
@@ -348,15 +359,6 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-}
-
-.content-blob {
-    display: flex;
-    flex-direction: row;
-    background-color: #b1afaf9a;
-    padding: .5rem;
-    border-radius: 1rem;
-    margin-bottom: 2rem;
 }
 
 .busca-recente {
@@ -376,7 +378,7 @@ footer {
     padding: 0.8rem;
     padding-left: 3rem;
     border-radius: 1rem;
-    background: #f6f6f6;
+    background: white;
     margin: 2%;
     margin-bottom: 0;
     border: 0.03rem black solid;
@@ -386,7 +388,7 @@ footer {
     display: flex;
     font-size: 1rem;
     font-family: "EB Garamond", serif;
-    color: #333333;
+    color: black;
     padding-left: .3rem;
     align-items: center;
 }
@@ -397,7 +399,7 @@ footer {
     top: 7rem;
     display: flex;
     flex-direction: column;
-    background-color: #f6f6f6;
+    background-color: white;
 }
 
 .cat {
@@ -408,7 +410,7 @@ footer {
 }
 
 .blob-est {
-    background-color: #f6f6f6;
+    background-color: #ff944d;
     border-radius: 1rem;
     display: flex;
     flex-direction: row;
@@ -430,7 +432,7 @@ footer {
 .rating {
     width: 6rem;
     position: relative;
-    bottom: .95rem;
+    bottom: .5rem;
 }
 
 .nome-est {
@@ -462,4 +464,142 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+}
+
+.content-blob {
+    display: flex;
+    flex-direction: row;
+    background-color: #ff944d;
+    padding: .5rem;
+    border-radius: 1rem;
+    margin: 2rem;
+    margin-bottom: 2rem;
+}
+
+.content-blob-icon {
+    height: 6rem;
+    width: 6rem;
+    border-radius: 2rem;
+}
+
+.content-blob-title {
+    text-align: center;
+    margin: auto;
+}
+
+.video-title {
+    background-color: #00b8e6;
+    padding-top: .15rem;
+    padding-bottom: .15rem;
+}
+
+.video-banner {
+    margin-top: 2rem;
+    width: 100%;
+    height: 8rem;
+}
+
+.menu-nav-video {
+    display: flex;
+    flex-direction: column;
+}
+
+.video-banner {
+    width: 100%;
+    height: 100%;
+}
+
+.video-header {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#author {
+    display: flex;
+    align-items: center;
+}
+
+#video-info {
+    font-size: 1.3rem;
+}
+
+.cell {
+    margin-bottom: .15rem;;
+}
+
+.cell-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: .15rem black solid;
+    border-bottom: .15rem black solid;
+}
+
+.cell-user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cell-footer-outer {
+    display: flex;
+    flex-direction: column;
+    border-top: .15rem black solid;
+    border-bottom: .15rem black solid;
+}
+
+.cell-footer-inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cell-footer-data {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: .15rem;
+    padding-bottom: .15rem;
+}
+
+.p-cell {
+    padding-left: 2rem;
+}
+
+.resumo-thumbnail {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 43%;
+}
+
+.icon-img {
+    height: 3rem;
+    width: 3rem;
+}
+
+.sub-icon {
+    height: 4rem;
+    width: 4rem;
+}
+
+.sub-icon2 {
+    height: 3rem;
+    width: 3rem;
+}
+
+.sub-icon3 {
+    height: 2rem;
+    width: 2rem;
+}
+
+#fav {
+    height: 3rem;
+}
+
+.footer-icon {
+    height: 5rem;
+    width: 5rem;
 }
